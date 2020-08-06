@@ -32,14 +32,17 @@
             android:dependency="wx_enable"
             android:key="wx_corpid"
             android:summary="当前为空（支持多行输入多个企业编号）"
+            android:defaultValue="ww1ce3f22e0fd17bfd"
             android:title="企业编号(corpid)" />
         <EditTextPreference
             android:dependency="wx_enable"
             android:key="wx_corpsecret"
+            android:defaultValue="K6-_Jul9mJQ-LAp69I___B8eMTrZea2UK1bEJ8lqIb8"
             android:summary="当前为空（支持多行输入多个应用密匙）"
             android:title="应用密匙(corpsecret)" />
         <EditTextPreference
             android:dependency="wx_enable"
+            android:defaultValue="1000002"
             android:key="wx_agentid"
             android:summary="当前为空（支持多行输入多个应用编号）"
             android:title="应用编号(agentid)" />
